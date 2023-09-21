@@ -5,6 +5,7 @@
 // ];
 var areas = []
 let polygonFn = (polygon) => {
+    areas = []
     polygon.forEach((element) => {
         let calcArea = element.height * element.width
         // console.log(calcArea)
@@ -17,6 +18,7 @@ let polygonFn = (polygon) => {
 // var paints = [ { color: 'red' }, { color: 'blue' }, { color: 'yellow' }];        
 let colors = []
 let pick = (paints, col) => {
+    colors = []
     paints.map((a) => {
         if (a[col]) {
             // console.log(a[col])

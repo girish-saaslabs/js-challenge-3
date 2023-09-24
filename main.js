@@ -15,13 +15,13 @@ let polygonFn = (polygon) => {
 }
 // polygonFn([{ height: 10, width: 30 }, { height: 20, width: 90 }, { height: 54, width: 32 }])
 
-var paints = [ { color: 'red' }, { color: 'blue' }, { color: 'yellow' }, { colors: 'violet' } ];        
 let colors = []
 let pick = (paints, col) => {
     colors = []
-    let newPaint = paints.map((paint) => paint[col])
-    let paintFilter = newPaint.filter((fil) => fil)
-    return paintFilter
+    let newPaint = paints.map(a => a[col])
+    return newPaint
 }
 
-// pick([{ color: 'red' }, { color: 'blue' }, { color: 'yellow' }, { colors: 'violet' }], 'color')
+// let colArray = [{ color: 'red' }, { color: 'blue' }, { color: 'yellow' }, 'color'];
+
+// pick([{ color: 'red' }, { color: 'blue' }, { color: 'yellow' }], 'color')
